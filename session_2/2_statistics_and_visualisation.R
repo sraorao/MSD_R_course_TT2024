@@ -1,5 +1,5 @@
 ###R for biologists
-##Irina & Rao, 30/01/2024
+##Irina & Rao, 30/04/2024
 
 #### LOAD and PREPARE data ####
 # We will load and subset migration and morphology data as in session 1
@@ -47,7 +47,7 @@ t.test(migmorph_cl1$elongatedness, migmorph_cl6$elongatedness)
 t.test(migmorph[migmorph$cluster == "1", "elongatedness"], migmorph[migmorph$cluster == "6", "elongatedness"])
 # Q: Perform a T test without Welch correction
 # hint: look up the help for t.test()
-t.test(migmorph_cl1$elongatedness, migmorph_cl6$elongatedness, var.equal = TRUE)
+
 
 # Wilcoxon test
 wilcox.test(migmorph_cl1$elongatedness, migmorph_cl6$elongatedness)
@@ -57,7 +57,7 @@ cor.test(migmorph$migration, migmorph$elongatedness)
 
 # Q: Calculate Spearman correlation coefficient
 # # hint: Look up the help pages for cor.test() function
-cor.test(migmorph$migration, migmorph$elongatedness, method = "spearman")
+
 
 #### Basic visualisation ####
 

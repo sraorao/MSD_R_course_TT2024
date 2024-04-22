@@ -1,10 +1,10 @@
 ###R for biologists
-##Irina & Rao, 30/01/2024
+##Irina & Rao, 30/04/2024
 
 ####Functions are also assigned to variables####
-add <- function(first, second) return(first + second)
+add <- function(first_arg, second_arg) return(first_arg + second_arg)
 add(10, 20)
-add(first = 10, second = 20)
+add(first_arg = 10, second_arg = 20)
 add <- function(x, y) {
   x = x + 1
   y = y + 1
