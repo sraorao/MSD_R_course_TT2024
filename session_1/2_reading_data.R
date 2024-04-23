@@ -60,8 +60,7 @@ migmorph$reagent_id
 
 # Q: Subset migmorph for only the 2nd and 3rd rows
 # hint: fill in the blanks as needed: migmorph[ , ]
-migmorph[2:3, ]
-migmorph[c(2, 3), ]
+
 
 
 # Q: Examine the ToothGrowth dataset that is preloaded in your R session
